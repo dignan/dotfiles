@@ -28,27 +28,11 @@ set t_Co=256
 " Sets the terminal title
 set title
 
-" Can use the mouse
-if has('mouse')
-	set mouse=a
-endif
-" Vundle stuff
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+" Source Vundle config
+source .bundle.vim
 
-Bundle 'gmarik/vundle'
-Bundle 'pyflakes.vim'
-Bundle 'https://github.com/scrooloose/nerdtree.git'
-Bundle 'colorsupport.vim'
-Bundle 'python.vim'
-Bundle 'https://github.com/altercation/vim-colors-solarized.git'
-Bundle 'taglist.vim'
-
-filetype plugin indent on
-
-if has("gui_running")
-	colorsheme slate
-endif
+" Set Colorscheme
+colorsheme slate
 
 " Taglist variables
 let Tlist_Auto_Open=1
