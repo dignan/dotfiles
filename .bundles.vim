@@ -16,5 +16,8 @@ Bundle 'colorsupport.vim'
 Bundle 'python.vim'
 Bundle 'https://github.com/altercation/vim-colors-solarized.git'
 Bundle 'taglist.vim'
+Bundle 'https://github.com/kchmck/vim-coffee-script.git'
+Bundle 'desert256.vim'
+Bundle 'inkpot'
 
 filetype plugin indent on

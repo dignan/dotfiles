@@ -32,7 +32,7 @@ set title
 source ~/.bundles.vim
 
 " Set Colorscheme
-colorscheme slate
+colorscheme inkpot
 
 " Taglist variables
 let Tlist_Auto_Open=1
