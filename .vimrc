@@ -29,10 +29,10 @@ set t_Co=256
 set title
 
 " Source Vundle config
-source .bundle.vim
+source .bundles.vim
 
 " Set Colorscheme
-colorsheme slate
+colorscheme slate
 
 " Taglist variables
 let Tlist_Auto_Open=1
