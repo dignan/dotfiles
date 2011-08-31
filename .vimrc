@@ -29,7 +29,7 @@ set t_Co=256
 set title
 
 " Source Vundle config
-source .bundles.vim
+source ~/.bundles.vim
 
 " Set Colorscheme
 colorscheme slate
